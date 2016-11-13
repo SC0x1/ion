@@ -1,6 +1,6 @@
 [submodule "third_party/zlib"]
 	path = third_party/zlib
-	url = https://android.googlesource.com/platform/external/zlib
+	url = https://github.com/madler/zlib
 [submodule "third_party/stblib"]
 	path = third_party/stblib
 	url = https://github.com/nothings/stb

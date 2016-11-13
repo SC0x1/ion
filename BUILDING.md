@@ -6,7 +6,13 @@ Ion depends on several submodules, you will need to run
     git submodule init
     git submodule update
 
-to download and sync them.
+    to download and sync them.
+
+
+For git Version 1.9 and later you can download submodules simultaneously, just run
+
+    git clone --recursive -j8 https://github.com/SC0x1/ion.git
+    git submodule update --init --recursive
 
 ## Dependencies
 Ion requires python (2.7+) to build.  It also requires gyp, which you can find
@@ -30,6 +36,9 @@ a different version, remember to correctly set the CXX environment variable.
 ## Building
 Build Ion and its dependencies by running `build.sh` or `build.py` from the
 `ion/` directory.
+
+Please note, if you build ion library using the Visual C++ compiler
+you need to run `build.py` from a `VS**** Tools Command Promd` console
 
 ### Special Instructions for Android
 If building for android, edit `ion/dev/android_common.gypi` and add the paths to
