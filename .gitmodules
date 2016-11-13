@@ -1,6 +1,6 @@
 [submodule "third_party/zlib"]
 	path = third_party/zlib
-	url = https://github.com/madler/zlib
+	url = https://android.googlesource.com/platform/external/zlib
 [submodule "third_party/stblib"]
 	path = third_party/stblib
 	url = https://github.com/nothings/stb
@@ -56,3 +56,4 @@
 [submodule "third_party/tinyxml"]
 	path = third_party/tinyxml
 	url = https://github.com/icebreaker/TinyXML
+
