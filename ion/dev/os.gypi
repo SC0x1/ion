@@ -92,11 +92,11 @@
         ],  # conditions
         'msvs_settings': {
           'VCCLCompilerTool': {
-            'Optimization': '0',  # Disable optimization.
+            'Optimization': '0',            # Disable optimization.
             'DebugInformationFormat': '3',  # /Zi
-            'BasicRuntimeChecks': '1',  # '/RTC1' enable fast checks
-            'RuntimeLibrary': '3',      # Multithreaded debug DLL (/MDd).
-            'AdditionalOptions': ['/FS'],  # Force synchronous pdb writing.
+            'BasicRuntimeChecks': '1',      # '/RTC1' enable fast checks
+            'RuntimeLibrary': '3',          # Multithreaded debug DLL (/MDd).
+            'AdditionalOptions': '/FS',     # Force synchronous pdb writing.
           },
 
           'VCLinkerTool': {
@@ -140,12 +140,11 @@
         ],  # conditions
         'msvs_settings': {
           'VCCLCompilerTool': {
-            'Optimization': '2',         # Maximize speed (/O2).
+            'Optimization': '2',            # Maximize speed (/O2).
             'StringPooling': 'true',
-            'RuntimeLibrary': '2',       # Multithreaded DLL (/MD).
+            'RuntimeLibrary': '2',          # Multithreaded DLL (/MD).
             'BufferSecurityCheck': 'true',
             'DebugInformationFormat': '3',  # /Zi
-            'AdditionalOptions': ['/FS'],  # Force synchronous pdb writing.
           },
           'VCLinkerTool': {
             'LinkIncremental': '1',      # Disabled.
@@ -723,13 +722,13 @@
 
         'msvs_settings': {
           'VCCLCompilerTool': {
-            'WarnAsError': 'true',  #  /WX
-            'DefaultCharIsUnsigned': 'true',  # /J
+            'WarnAsError': 'true',                 #  /WX
+            'DefaultCharIsUnsigned': 'true',       # /J
             'EnableFunctionLevelLinking': 'true',  # /Gy
-            'StringPooling': 'true',  # /GF
-            'SuppressStartupBanner': 'true',  # /nologo
-            'WarningLevel': '3',  # /W3  TODO(user):  Raise to /W4.
-            'AdditionalOptions': ['/bigobj', '/Zm500'],
+            'StringPooling': 'true',               # /GF
+            'SuppressStartupBanner': 'true',       # /nologo
+            'WarningLevel': '3',                   # /W3  TODO(user):  Raise to /W4.
+            'AdditionalOptions': '/bigobj /Zm500',
             'ExceptionHandling': '1',
           },
           'VCResourceCompilerTool': {
