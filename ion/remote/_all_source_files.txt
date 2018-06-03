@@ -1,0 +1,9 @@
+res/calltrace.iad
+res/nodegraph.iad
+res/resources.iad
+res/root.iad
+res/settings.iad
+res/shader_editor.iad
+res/tracing.iad
+res/geturi_asmjs.iad
+res/geturi_cc.iad

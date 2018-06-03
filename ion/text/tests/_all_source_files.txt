@@ -1,0 +1,11 @@
+basicbuilder_test.cc
+binpacker_test.cc
+font_test.cc
+fontimage_test.cc
+fontmacros_test.cc
+fontmanager_test.cc
+freetypefont_test.cc
+layout_test.cc
+outlinebuilder_test.cc
+platformfont_test.cc
+sdfutils_test.cc

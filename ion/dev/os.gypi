@@ -145,6 +145,7 @@
             'RuntimeLibrary': '2',          # Multithreaded DLL (/MD).
             'BufferSecurityCheck': 'true',
             'DebugInformationFormat': '3',  # /Zi
+            'AdditionalOptions': '/FS',     # Force synchronous pdb writing.
           },
           'VCLinkerTool': {
             'LinkIncremental': '1',      # Disabled.

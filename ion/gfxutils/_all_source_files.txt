@@ -1,0 +1,2 @@
+tests/data/shapeutils_test.iad
+tests/data/zipassetcomposer_test.iad
